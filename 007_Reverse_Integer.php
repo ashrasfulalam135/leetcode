@@ -5,6 +5,7 @@ class Solution
    * @param Integer $x
    * @return Integer
    */
+  // runtime 4ms
   function reverse($x)
   {
     if ($this->is32BitInt($x)) {
